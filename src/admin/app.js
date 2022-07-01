@@ -1,0 +1,57 @@
+import favicon from "./extensions/favicon.ico";
+import AuthLogo from "./extensions/my-logo.png";
+
+export default {
+  config: {
+    locales: [
+      // 'ar',
+      // 'fr',
+      // 'cs',
+      // 'de',
+      // 'dk',
+      // 'es',
+      // 'he',
+      // 'id',
+      // 'it',
+      // 'ja',
+      // 'ko',
+      // 'ms',
+      // 'nl',
+      // 'no',
+      // 'pl',
+      // 'pt-BR',
+      // 'pt',
+      // 'ru',
+      // 'sk',
+      // 'sv',
+      // 'th',
+      // 'tr',
+      // 'uk',
+      // 'vi',
+      // 'zh-Hans',
+      // 'zh',
+    ],
+    auth: {
+      logo: AuthLogo,
+    },
+    // Replace the favicon
+    head: {
+      favicon: favicon,
+    },
+    // Disable video tutorials
+    tutorials: false,
+    // Disable notifications about new Strapi releases
+    notifications: { release: false },
+    translations: {
+      en: {
+        "app.components.LeftMenu.navbrand.title": "FB Dashboard",
+        "app.components.LeftMenu.navbrand.workplace": "Subtitle message",
+        "Auth.form.welcome.title": "Welcome to Facebook!",
+        "Auth.form.welcome.subtitle": "Log in to your Facebook account",
+      },
+    },
+  },
+  bootstrap(app) {
+    console.log(app);
+  },
+};
