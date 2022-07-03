@@ -44,10 +44,10 @@ export default {
     notifications: { release: false },
     translations: {
       en: {
-        "app.components.LeftMenu.navbrand.title": "FB Dashboard",
-        "app.components.LeftMenu.navbrand.workplace": "Subtitle message",
-        "Auth.form.welcome.title": "Welcome to Facebook!",
-        "Auth.form.welcome.subtitle": "Log in to your Facebook account",
+        "app.components.LeftMenu.navbrand.title": "MW Dashboard",
+        "app.components.LeftMenu.navbrand.workplace": "...",
+        "Auth.form.welcome.title": "Welcome to Modernwrites!",
+        "Auth.form.welcome.subtitle": "Log in to your MW account",
       },
     },
   },
