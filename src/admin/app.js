@@ -46,8 +46,8 @@ export default {
       en: {
         "app.components.LeftMenu.navbrand.title": "MW Dashboard",
         "app.components.LeftMenu.navbrand.workplace": "...",
-        "Auth.form.welcome.title": "Welcome to Modernwrites!",
-        "Auth.form.welcome.subtitle": "Log in to your MW account",
+        "Auth.form.welcome.title": "Welcome to Instagram!",
+        "Auth.form.welcome.subtitle": "Log in to your insta account",
       },
     },
   },
