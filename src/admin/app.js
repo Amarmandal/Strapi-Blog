@@ -44,10 +44,10 @@ export default {
     notifications: { release: false },
     translations: {
       en: {
-        "app.components.LeftMenu.navbrand.title": "MW Dashboard",
+        "app.components.LeftMenu.navbrand.title": "New Dashboard",
         "app.components.LeftMenu.navbrand.workplace": "...",
         "Auth.form.welcome.title": "Welcome to Instagram!",
-        "Auth.form.welcome.subtitle": "Log in to your insta account",
+        "Auth.form.welcome.subtitle": "Log in to your instagram account",
       },
     },
   },
