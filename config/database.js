@@ -8,9 +8,9 @@ module.exports = ({ env }) => ({
       user: env("DATABASE_USERNAME", "amar"),
       password: env("DATABASE_PASSWORD", "amar12345"),
       schema: env("DATABASE_SCHEMA", "public"), // Not required
-      ssl: {
-        rejectUnauthorized: env.bool("DATABASE_SSL_SELF", false), // For self-signed certificates
-      },
+      // ssl: {
+      //   rejectUnauthorized: env.bool("DATABASE_SSL_SELF", false), // For self-signed certificates
+      // },
     },
     debug: false,
   },
